@@ -30,3 +30,8 @@ h1 {
     background: url(images/faq_background.png) no-repeat;
     height: 1500px;
 }
+
+.bottom-part {
+    background: url(images/img-footer.png) no-repeat;
+    height: 830px;
+}
