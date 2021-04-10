@@ -10,9 +10,12 @@ body {
 .top-part {
     background: url(images/top.png) no-repeat;
     height: 1290px;
+    padding-top: 50px;
 }
 
-
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
 
 .top-part .btn-outline-success {
     color: white;
@@ -214,4 +217,5 @@ h4 {
 
 .footer-social {
     margin-top: 50px;
+    padding-bottom: 90px;
 }
