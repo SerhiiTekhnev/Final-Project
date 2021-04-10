@@ -17,6 +17,10 @@ body {
     color: white;
 }
 
+.navig-just {
+    margin: 0 auto;
+}
+
 .top-part .btn-outline-success {
     color: white;
     background: #EE4D47;
@@ -219,3 +223,4 @@ h4 {
     margin-top: 50px;
     padding-bottom: 90px;
 }
+
