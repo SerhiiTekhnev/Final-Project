@@ -108,9 +108,110 @@ h1 {
 .faq-part {
     background: url(images/faq_background.png) no-repeat;
     height: 1500px;
+    margin-top: 240px;
+}
+
+.faq-part h3 {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+}
+
+h4 {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    margin-top: 45px;
+    padding-right: 100px;
+}
+
+.faq-part .col-lg-6:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq-part .row:first-child {
+    padding-top: 100px;
+}
+
+.faq-part .row:nth-child(2) {
+    margin-top: 90px;
+}
+
+.about-part {
+    margin-top: 177px;
+}
+
+.about-part h3 {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+}
+
+.clients-part {
+    margin-top: 44px;
+    height: 360px;
+}
+
+.clients-part h4 {
+    margin-top: 5px;
+}
+
+.clients-part .col-lg-4 p {
+    padding: 60px 50px;
+    
+}
+
+.clients-part .col-lg-4:last-child p  {
+    padding: 60px 20px;
+}
+
+.wight-back {
+    background: white;
+}
+
+
+
+.clients-part img {
+    padding-left: 50px;
 }
 
 .bottom-part {
     background: url(images/img-footer.png) no-repeat;
     height: 830px;
+    margin-top: 160px;
+}
+
+.bottom-part .col-lg-5 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 30px 60px;
+    border-left: 10px solid #ED4D47;
+    color: white;
+}
+
+.bottom-part .row {
+    padding-top: 320px;
+}
+
+.navig-footer {
+    margin-top: 150px;
+}
+
+.footer-social {
+    margin-top: 50px;
 }
